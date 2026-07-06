@@ -2,7 +2,7 @@
 
 
 
-### What We Attempted to Accomplish (The Blueprint)
+### What We Attempted to Accomplish (The Blueprint)  
 
 The core objective of this project was to build a complete, closed-loop identity security pipeline that could automatically detect a risky login, force a user to secure their account, and stream the entire operational footprint into a centralized corporate database for permanent storage. 
 
