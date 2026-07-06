@@ -1,12 +1,6 @@
 # Project Summary: Global Identity Isolation and Telemetry Streaming
 
-### Closed-Loop Resolution: Architectural Multi-Portal Alignment
 
-* **Problem:** The previous project summary completely skipped the critical transition between management environments, failing to document that we departed the identity portal, purchased an active cloud subscription, and deployed infrastructure resources inside a completely separate infrastructure environment, which left the project narrative fragmented and incoherent.
-* **Root Cause:** The project was inherently a cross-platform architecture that bridged two entirely different cloud environments: the Microsoft Entra admin center and the Azure portal. We began in the Microsoft Entra admin center to build identity policies, but were forced to migrate over to the Azure portal to buy a subscription and establish an infrastructure data repository. Because the instructions failed to explicitly call out this leap between distinct management portals, the boundaries between identity management and Azure infrastructure became entirely blurred.
-* **Remedy:** Reconstruct the project overview from the ground up to explicitly lay out the multi-portal architecture, tracking exactly why we moved from identity configurations to infrastructure provisioning, while completely removing the confusing step-by-step technical button sequences.
-
----
 
 ### What We Attempted to Accomplish (The Blueprint)
 
